@@ -1,0 +1,23 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/newButton"
+        android:title="New"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/prevButton"
+        android:title="Prev"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nextButton"
+        android:title="Next"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+</menu>
